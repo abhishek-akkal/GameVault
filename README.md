@@ -1,16 +1,92 @@
-# React + Vite
+# 🎮 GameVault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GameVault is a modern game store UI built with **React**, **Vite**, and **Tailwind CSS**. It showcases a collection of popular games with reusable React components, dynamic props, and a clean dark-themed interface.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://game-vault-rz5b.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern dark-themed game store interface
+- Reusable React components
+- Dynamic game cards using React Props
+- Clean and organized UI
+- Built with React + Vite
+- Styled using Tailwind CSS
+- React Icons integration
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Tailwind CSS
+- React Icons
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+│   ├── Components/
+│   │   ├── Cards.jsx
+│   │   ├── Header.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── Images/
+│   └── hero.png
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/abhishek-akkal/GameVault.git
+```
+
+Go to the project directory
+
+```bash
+cd GameVault
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+## 📸 Preview
+
+![GameVault Preview](./public/icons.svg)
+
+> Replace this image with a screenshot of your homepage for a better presentation.
+
+## 📖 What I Learned
+
+- Creating reusable React components
+- Passing data using React Props
+- Organizing React projects
+- Working with Tailwind CSS utility classes
+- Importing and managing assets
+- Building a modern UI using React
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
