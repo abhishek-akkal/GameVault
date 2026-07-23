@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="flex items-center text-2xl cursor-pointer">
         <img src={Logo} alt="Logo" className="h-15 w-30 object-cover" />
         <div>Game</div>
-        <div className="text-purple-500">Valut</div>
+        <div className="text-purple-500">Vault</div>
       </div>
 
       <div className="flex gap-10 text-xl">
