@@ -7,8 +7,8 @@ import { FiGift } from "react-icons/fi";
 const Footer = () => {
   return (
     <div className="pt-20">
-      <div className="flex justify-center pb-10 ">
-        <div className="flex justify-around items-center h-30 w-300 bg-gray-900 rounded-2xl">
+      <div className="flex justify-center px-4 pb-10">
+        <div className="w-full max-w-7xl bg-gray-900 rounded-2xl px-6 py-8 flex flex-wrap justify-center lg:justify-around gap-8">
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 bg-purple-950 flex items-center justify-center rounded-full">
               <IoShieldCheckmarkSharp className="text-3xl text-purple-500" />
@@ -51,8 +51,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="pb-5 flex justify-center border-t border-gray-800">
-        <p className="mt-5">
+      <div className="pb-5 flex justify-center border-t border-gray-800 px-4">
+        <p className="mt-5 text-center text-sm sm:text-base">
           © 2026 GameVault • Designed & Developed by Abhishek
         </p>
       </div>

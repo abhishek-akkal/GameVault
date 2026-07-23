@@ -1,6 +1,8 @@
 import React from "react";
 import Cards from "./assets/Components/Cards";
 import Header from "./assets/Components/Header";
+import Navbar from "./assets/Components/Navbar";
+import Footer from "./assets/Components/Footer";
 import GameOne from "./assets/Components/Images/GameOne.png";
 import GameTwo from "./assets/Components/Images/GameTwo.png";
 import GameThree from "./assets/Components/Images/GameThree.png";
@@ -9,8 +11,14 @@ import GameFive from "./assets/Components/Images/GameFive.png";
 import GameSix from "./assets/Components/Images/GameSix.png";
 import GameSeven from "./assets/Components/Images/GameSeven.png";
 import GameEight from "./assets/Components/Images/GameEight.png";
-import Navbar from "./assets/Components/Navbar";
-import Footer from "./assets/Components/Footer";
+import GameNine from "./assets/Components/Images/GameNine.png";
+import GameTen from "./assets/Components/Images/GameTen.png";
+import GameEleven from "./assets/Components/Images/GameEleven.png";
+import GameTwelve from "./assets/Components/Images/GameTwelve.png";
+import GameThirteen from "./assets/Components/Images/GameThirteen.png";
+import GameFourteen from "./assets/Components/Images/GameFourteen.png";
+import GameFifteen from "./assets/Components/Images/GameFifteen.png";
+import GameSixteen from "./assets/Components/Images/GameSixteen.png";
 
 const App = () => {
   return (
@@ -89,6 +97,78 @@ const App = () => {
           price="₹3,499"
           oldPrice="₹3,999"
           image={GameEight}
+        />
+
+        <Cards
+          title="Grand Theft Auto VI"
+          genre="Action, Open World"
+          rating="⭐ 4.9 (24.8K Reviews)"
+          price="₹5,999"
+          oldPrice="₹6,499"
+          image={GameNine}
+        />
+
+        <Cards
+          title="Horizon Forbidden West"
+          genre="Action RPG"
+          rating="⭐ 4.8 (16.9K Reviews)"
+          price="₹3,999"
+          oldPrice="₹4,499"
+          image={GameTen}
+        />
+
+        <Cards
+          title="Dragon's Dogma 2"
+          genre="Action RPG"
+          rating="⭐ 4.8 (14.7K Reviews)"
+          price="₹4,499"
+          oldPrice="₹4,999"
+          image={GameEleven}
+        />
+
+        <Cards
+          title="Gran Turismo 7"
+          genre="Racing, Simulation"
+          rating="⭐ 4.8 (18.2K Reviews)"
+          price="₹3,999"
+          oldPrice="₹4,499"
+          image={GameTwelve}
+        />
+
+        <Cards
+          title="Dragon Ball: Sparking! ZERO"
+          genre="Fighting, Anime"
+          rating="⭐ 4.8 (17.5K Reviews)"
+          price="₹4,499"
+          oldPrice="₹4,999"
+          image={GameThirteen}
+        />
+
+        <Cards
+          title="Hogwarts Legacy"
+          genre="Action RPG"
+          rating="⭐ 4.8 (21.3K Reviews)"
+          price="₹3,499"
+          oldPrice="₹3,999"
+          image={GameFourteen}
+        />
+
+        <Cards
+          title="Taxi Chaos"
+          genre="Arcade, Racing"
+          rating="⭐ 4.3 (4.8K Reviews)"
+          price="₹1,499"
+          oldPrice="₹1,999"
+          image={GameFifteen}
+        />
+
+        <Cards
+          title="Star Wars Zero Company"
+          genre="Strategy, Turn-Based"
+          rating="⭐ 4.7 (8.9K Reviews)"
+          price="₹4,999"
+          oldPrice="₹5,499"
+          image={GameSixteen}
         />
       </div>
 

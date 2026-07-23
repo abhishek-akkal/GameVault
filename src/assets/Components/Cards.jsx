@@ -21,7 +21,10 @@ const Cards = ({ title, genre, rating, price, oldPrice, image }) => {
             <div className="text-lg text-gray-500 line-through">{oldPrice}</div>
           </div>
 
-          <button className="h-9 bg-purple-800 px-2 rounded-lg flex justify-between items-center gap-2 font-semibold cursor-pointer active:scale-95">
+          <button
+            onClick={() => alert("Added to cart!")}
+            className="h-9 bg-purple-800 px-2 rounded-lg flex justify-between items-center gap-2 font-semibold cursor-pointer active:scale-95"
+          >
             Add to Cart
             <FiShoppingCart className="text-lg" />
           </button>
